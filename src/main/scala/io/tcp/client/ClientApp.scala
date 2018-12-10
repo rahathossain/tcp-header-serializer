@@ -11,3 +11,6 @@ object ClientApp extends App {
   val clientManager = system.actorOf(ClientManager.props)
   clientManager ! WakeUp
 }
+
+
+
